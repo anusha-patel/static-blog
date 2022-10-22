@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dev blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <div class="nav-bar">
+        <div class="logo">
+            <h1>All About Web</h1>
+        </div>
+        <div class="humburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-item">
+            <ul class="nav-items">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="/blog/posts.html">Posts</a></li>
+                <li> <a href="https://www.instagram.com/"><img src="/blog/images/instagram.png" alt=""></a></li>
+                <li><a href="https://twitter.com/i/flow/login"><img src="/blog/images/twitter.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/login"><img src="/blog/images/lindin.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- hero start -->
+    <header>
+        <div class="title">
+            <h1>Make Zone Better ! </h1>
+            <p>why better zone important ?</p>
+
+        </div>
+        <div class="bg-img">
+            <img src="/blog/images/bg img.png" alt="">
+        </div>
+    </header>
+    <!-- section  / main blog-->
+    <section class="sec-1">
+        <div class="heading">
+            <div class="sec-title">
+                <h1> web development</h1>
+                <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services......</p>
+
+            </div>
+            <div class="read-more">
+                <a href="">May 20th 2020</a>
+                <a href="/blog/web-development.html">Read more</a>
+
+            </div>
+        </div>
+        <div class="img">
+            <img src="/blog/images/image 1.png" alt="">
+        </div>
+    </section>
+    <!-- section 2 /recent blogs section -->
+    <section class="images">
+        <div class="box">
+            <img src="/blog/images/image 4.png" alt="">
+            <h1>html Topics</h1>
+            <p>HTML Documents
+                All HTML documents must start with a document type declaration: <!DOCTYPE html>.
+                
+                The HTML document itself begins with <html> and ends with </html>.
+                
+                The visible part of the HTML document is between <body> and </body>......</p>
+            <div class="read-more">
+                <a href="">May 20th 2020</a>
+                <a href="/blog/posts.html">Read more</a>
+            </div>
+
+        </div>
+        <div class="box">
+            <img src="/blog/images/image 5.png" alt="">
+            <h1>css Topics</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that....</p>
+            <div class="read-more">
+                <a href="">May 20th 2020</a>
+                <a href="/blog/posts.html">Read more</a>
+            </div>
+
+        </div>
+        <div class="box">
+            <img src="/blog/images/image 2.png" alt="">
+            <h1>Javascript topics</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that....</p>
+            <div class="read-more">
+                <a href="">May 20th 2020</a>
+                <a href="/blog/posts.html">Read more</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- last section / previous blog section-->
+    <section class="sec-1 last-sec">
+        <div class="heading last-sec-heading">
+            <div class="sec-title">
+                <h1>Advanced Javascript</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that....</p>
+
+            </div>
+            <div class="read-more">
+                <a href="">May 20th 2020</a>
+                <a href="/blog/recent-blogs.html">Read more</a>
+
+            </div>
+        </div>
+        <div class="img">
+            <img src="/blog/images/image 7.png" alt="">
+        </div>
+    </section>
+    <!-- see more button -->
+    <div class="button">
+        <button class="btn">See More <span><img src="/blog/images/Vector.png" alt="" srcset=""></span> </button>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-para">
+            <p> 2022 copyright all rights reserved</p>
+        </div>
+        <div class="lcons">
+            <a href="https://www.instagram.com/"><img src="/blog/images/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/login"><img src="/blog/images/lindin.png" alt=""></a>
+            <a href=""><img src="/blog/images/twitter.png" alt=""></a>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script>
+        humburger = document.querySelector(".humburger");
+        humburger.onclick = function(){
+            navBar=document.querySelector(".nav-item");
+            navBar.classList.toggle("active");
+        }
+
+    </script>
+
+</body>
+
+</html>
